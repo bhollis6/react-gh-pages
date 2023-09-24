@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/tdp-landing/static/css/main.073c9b0a.css",
-    "main.js": "/tdp-landing/static/js/main.3527dcd8.js",
-    "static/js/787.28cb0dcd.chunk.js": "/tdp-landing/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/tdp-landing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/tdp-landing/static/css/main.abd64e84.css",
+    "main.js": "/tdp-landing/static/js/main.f0c2748f.js",
     "index.html": "/tdp-landing/index.html",
-    "main.073c9b0a.css.map": "/tdp-landing/static/css/main.073c9b0a.css.map",
-    "main.3527dcd8.js.map": "/tdp-landing/static/js/main.3527dcd8.js.map",
-    "787.28cb0dcd.chunk.js.map": "/tdp-landing/static/js/787.28cb0dcd.chunk.js.map"
+    "main.abd64e84.css.map": "/tdp-landing/static/css/main.abd64e84.css.map",
+    "main.f0c2748f.js.map": "/tdp-landing/static/js/main.f0c2748f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3527dcd8.js"
+    "static/css/main.abd64e84.css",
+    "static/js/main.f0c2748f.js"
   ]
 }
