@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tdp-landing/static/css/main.abd64e84.css",
-    "main.js": "/tdp-landing/static/js/main.f0c2748f.js",
+    "main.js": "/tdp-landing/static/js/main.ac3ecc17.js",
     "index.html": "/tdp-landing/index.html",
     "main.abd64e84.css.map": "/tdp-landing/static/css/main.abd64e84.css.map",
-    "main.f0c2748f.js.map": "/tdp-landing/static/js/main.f0c2748f.js.map"
+    "main.ac3ecc17.js.map": "/tdp-landing/static/js/main.ac3ecc17.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.f0c2748f.js"
+    "static/js/main.ac3ecc17.js"
   ]
 }
