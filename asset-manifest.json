@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tdp-landing/static/css/main.abd64e84.css",
-    "main.js": "/tdp-landing/static/js/main.ac3ecc17.js",
+    "main.css": "/tdp-landing/static/css/main.901a6e1c.css",
+    "main.js": "/tdp-landing/static/js/main.08eb2aea.js",
     "index.html": "/tdp-landing/index.html",
-    "main.abd64e84.css.map": "/tdp-landing/static/css/main.abd64e84.css.map",
-    "main.ac3ecc17.js.map": "/tdp-landing/static/js/main.ac3ecc17.js.map"
+    "main.901a6e1c.css.map": "/tdp-landing/static/css/main.901a6e1c.css.map",
+    "main.08eb2aea.js.map": "/tdp-landing/static/js/main.08eb2aea.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd64e84.css",
-    "static/js/main.ac3ecc17.js"
+    "static/css/main.901a6e1c.css",
+    "static/js/main.08eb2aea.js"
   ]
 }
