@@ -5,7 +5,7 @@ export default function Form() {
 		<form
 			method="POST"
 			action="https://getform.io/f/19869f0a-6c2a-40a4-a1db-657b3a828de7"
-            className="App-form"
+            className="Form-main"
 		>
 			<label>
 				Name

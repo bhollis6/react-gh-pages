@@ -1,25 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+/* Removed white border */
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
 .App {
-  text-align: center;
+	font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* TODO Make different background for different aspect ratios */
+.App-background {
+	background-image: url("./assets/testsvg2.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 100vh;
 }
 
-.App-form {
-    display: flex;
-    flex-direction: column;
-    padding: auto;
-    margin: auto;
+.App-body {
+    margin-right: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.Form-main {
+	display: flex;
+	flex-direction: column;
+	padding: auto;
+	margin: auto;
+}
+
+.Container-grid {
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+	grid-template-columns: (1, auto); 
+	gap: 6%;
+	width: 70%;
+	margin: 0 auto;
+    text-align: left;
+}
+
+.Container-title {
+	padding: 10px;
+    font-size: 400%;
+	border: 1px solid #ccc; 
+}
+
+.Container-paragraph1 {
+	padding: 10px;
+	border: 1px solid #ccc; 
+}
+
+.Container-paragraph2 {
+	padding: 10px; 
+	border: 1px solid #ccc; 
+}
+
+.Container-form {
+	padding: 10px; 
+	border: 1px solid #ccc; 
 }

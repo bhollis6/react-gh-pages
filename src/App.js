@@ -1,13 +1,14 @@
 import "./App.css";
-import Form from "./components/Form";
+import Container from "./components/Container";
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<p>TDP Landing Page WIP</p>
-                <Form/>
-			</header>
+			<div className="App-background">
+                <body className="App-body">
+                    <Container/>
+                </body>
+			</div>
 		</div>
 	);
 }
