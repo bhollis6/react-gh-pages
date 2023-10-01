@@ -5,25 +5,17 @@ export default function Form() {
 		<form
 			method="POST"
 			action="https://getform.io/f/19869f0a-6c2a-40a4-a1db-657b3a828de7"
-            className="Form-main"
+			className="Form-main"
 		>
 			<label>
-				Name
-				<input type="text" name="name" />
+				Name:
+				<input type="text" name="name" className="Container-form-item"/>
 			</label>
 			<label>
-				Email
-				<input type="email" name="email" />
+				Email Address:
+				<input type="email" name="email" className="Container-form-item"/>
 			</label>
-			<label>
-				Keyword
-				<select name="keyword">
-					<option value="option-1">option 1</option>
-					<option value="option-2">option 2</option>
-					<option value="option-3">option 3</option>
-				</select>
-			</label>
-			<button type="submit">Send</button>
+			<button type="submit" className="Container-submit">Submit</button>
 		</form>
 	);
 }

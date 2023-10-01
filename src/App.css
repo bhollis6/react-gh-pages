@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
+@font-face {
+    font-family: "Cloud";
+    src: url(assets/cloud-semibold-webfont.ttf);
+}
 /* Removed white border */
 html,
 body {
@@ -8,7 +12,7 @@ body {
 }
 
 .App {
-	font-family: "Montserrat", sans-serif;
+	font-family: "DM Sans", sans-serif;
     color: #FFFFFF;
 }
 
@@ -22,8 +26,11 @@ body {
 	height: 100vh;
 }
 
+/* Look to fix overflow issue */
 .App-body {
     margin-right: 30%;
+    padding-top: 3%;
+    max-height: 100vh;
 }
 
 .Form-main {
@@ -37,29 +44,59 @@ body {
 	display: grid;
 	grid-template-rows: repeat(4, auto);
 	grid-template-columns: (1, auto); 
-	gap: 6%;
-	width: 70%;
+	gap: 2%;
+	width: 80%;
 	margin: 0 auto;
     text-align: left;
 }
-
 .Container-title {
 	padding: 10px;
     font-size: 400%;
-	border: 1px solid #ccc; 
+    width: 80%;
 }
 
 .Container-paragraph1 {
 	padding: 10px;
-	border: 1px solid #ccc; 
+    font-size: 150%;
+    text-align: justify; 
 }
 
 .Container-paragraph2 {
 	padding: 10px; 
-	border: 1px solid #ccc; 
+    font-size: 150%; 
+    text-align: justify;  
 }
 
+/* Cloud semi-bold */
 .Container-form {
-	padding: 10px; 
-	border: 1px solid #ccc; 
+    margin-top: 1%;
+	padding: 1%; 
+    border-radius: 5px;
+    background-color: #c1dcff;
+    color: #364572;
+    font-family: "Cloud";
+    font-size: 120%;
+    width: 95%;
+}
+
+.Container-form-text {
+    color: #364572;
+    font-family: "Cloud";
+    font-style: italic;
+}
+
+.Container-form-item{
+    background: #FFFFFF;
+    margin-top: 1%;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.Container-submit{
+    margin-top: 1%;
+    color: #364572;
+    font-family: "Cloud";
+    font-size: 100%;
+    width: 50%;
 }
