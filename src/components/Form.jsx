@@ -9,11 +9,11 @@ export default function Form() {
 		>
 			<label>
 				Name:
-				<input type="text" name="name" className="Container-form-item"/>
+				<input type="text" name="name" className="Container-form-name"/>
 			</label>
 			<label>
 				Email Address:
-				<input type="email" name="email" className="Container-form-item"/>
+				<input type="email" name="email" className="Container-form-email"/>
 			</label>
 			<button type="submit" className="Container-submit">Submit</button>
 		</form>

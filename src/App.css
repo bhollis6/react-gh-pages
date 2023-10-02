@@ -9,11 +9,13 @@ html,
 body {
 	padding: 0;
 	margin: 0;
+    background-color: #364572;
 }
 
 .App {
 	font-family: "DM Sans", sans-serif;
     color: #FFFFFF;
+    background-color: #364572;
 }
 
 /* TODO Make different background for different aspect ratios */
@@ -31,6 +33,7 @@ body {
     margin-right: 30%;
     padding-top: 3%;
     max-height: 100vh;
+    background-color: transparent;
 }
 
 .Form-main {
@@ -76,7 +79,7 @@ body {
     color: #364572;
     font-family: "Cloud";
     font-size: 120%;
-    width: 95%;
+    width: 60%;
 }
 
 .Container-form-text {
@@ -85,18 +88,44 @@ body {
     font-style: italic;
 }
 
-.Container-form-item{
+.Container-form-name{
     background: #FFFFFF;
-    margin-top: 1%;
+    margin-top: 2%;
     border: 0px;
     border-radius: 3px;
     margin-left: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Cloud";
+}
+
+.Container-form-email{
+    background: #FFFFFF;
+    margin-top: 2%;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 40%;
+    font-family: "Cloud";
 }
 
 .Container-submit{
-    margin-top: 1%;
+    margin-top: 2%;
     color: #364572;
+    cursor: pointer;
+    border-color: #364572;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
     font-family: "Cloud";
     font-size: 100%;
-    width: 50%;
+    cursor: pointer;
+    width: 100%;    
+    transition: background-color 0.3s ease; 
+}
+
+.Container-submit:hover {
+    background-color: #ffbc92; 
 }
