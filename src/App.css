@@ -97,6 +97,7 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     font-family: "Cloud";
+    font-size: 80%;
 }
 
 .Container-form-email{
@@ -109,6 +110,7 @@ body {
     padding-bottom: 1%;
     width: 40%;
     font-family: "Cloud";
+    font-size: 80%;
 }
 
 .Container-submit{
