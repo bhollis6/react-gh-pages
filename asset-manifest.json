@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tdp-landing/static/css/main.ebdbadee.css",
-    "main.js": "/tdp-landing/static/js/main.7d8ba530.js",
-    "static/media/testsvg2.svg": "/tdp-landing/static/media/testsvg2.86b8ccaaccd0b6495874.svg",
+    "main.css": "/tdp-landing/static/css/main.3919637e.css",
+    "main.js": "/tdp-landing/static/js/main.e65c5ffa.js",
+    "static/media/testsvg2.svg": "/tdp-landing/static/media/testsvg2.b40e3d865b9c7f732142.svg",
     "static/media/cloud-semibold-webfont.ttf": "/tdp-landing/static/media/cloud-semibold-webfont.32e0811f30c6726b83b7.ttf",
     "index.html": "/tdp-landing/index.html",
-    "main.ebdbadee.css.map": "/tdp-landing/static/css/main.ebdbadee.css.map",
-    "main.7d8ba530.js.map": "/tdp-landing/static/js/main.7d8ba530.js.map"
+    "main.3919637e.css.map": "/tdp-landing/static/css/main.3919637e.css.map",
+    "main.e65c5ffa.js.map": "/tdp-landing/static/js/main.e65c5ffa.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebdbadee.css",
-    "static/js/main.7d8ba530.js"
+    "static/css/main.3919637e.css",
+    "static/js/main.e65c5ffa.js"
   ]
 }
