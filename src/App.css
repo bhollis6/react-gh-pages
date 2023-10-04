@@ -10,6 +10,7 @@ body {
 	padding: 0;
 	margin: 0;
     background-color: #364572;
+    
 }
 
 .App {
@@ -20,7 +21,7 @@ body {
 
 /* TODO Make different background for different aspect ratios */
 .App-background {
-	background-image: url("./assets/testsvg2.svg");
+	background-image: url("./assets/tdpfinal.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -47,26 +48,30 @@ body {
 	display: grid;
 	grid-template-rows: repeat(4, auto);
 	grid-template-columns: (1, auto); 
-	gap: 2%;
+	/* gap: 2%; */
+    gap: 1.48vh;
 	width: 80%;
 	margin: 0 auto;
     text-align: left;
 }
 .Container-title {
 	padding: 10px;
-    font-size: 400%;
+    font-size: 6.84vh;
+    /* font-size: 400%; */
     width: 80%;
 }
 
 .Container-paragraph1 {
 	padding: 10px;
-    font-size: 150%;
+    /* font-size: 150%; */
+    font-size: 2.6vh;
     text-align: justify; 
 }
 
 .Container-paragraph2 {
 	padding: 10px; 
-    font-size: 150%; 
+    /* font-size: 150%; */
+    font-size: 2.6vh; 
     text-align: justify;  
 }
 
@@ -78,7 +83,8 @@ body {
     background-color: #c1dcff;
     color: #364572;
     font-family: "Cloud";
-    font-size: 120%;
+    /* font-size: 120%; */
+    font-size: 2.05vh;
     width: 60%;
 }
 
@@ -97,7 +103,8 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     font-family: "Cloud";
-    font-size: 80%;
+    /* font-size: 80%; */
+    font-size: 1.6vh;
 }
 
 .Container-form-email{
@@ -110,7 +117,8 @@ body {
     padding-bottom: 1%;
     width: 40%;
     font-family: "Cloud";
-    font-size: 80%;
+    /* font-size: 80%; */
+    font-size: 1.6vh;
 }
 
 .Container-submit{
@@ -122,7 +130,8 @@ body {
     border-style: solid;
     border-width: 2px;
     font-family: "Cloud";
-    font-size: 100%;
+    font-size: 2vh;
+    /* font-size: 100%; */
     cursor: pointer;
     width: 100%;    
     transition: background-color 0.3s ease, transform 0.2s ease-in-out;}
@@ -131,3 +140,34 @@ body {
     background-color: #ffbc92; 
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 1020px) {
+    .Container-title {
+        padding: 10px;
+        font-size: 6.84vh;
+        width: 100%;
+    }
+
+    .Container-form {
+    margin-top: .7%;
+	padding: .7%; 
+    border-radius: 5px;
+    background-color: #c1dcff;
+    color: #364572;
+    font-family: "Cloud";
+    /* font-size: 120%; */
+    font-size: 2.05vh;
+    width: 70%;
+}
+}
+
+@media screen and (max-height: 895px) {
+    .App-background {
+        background-image: url("./assets/tdplaptop.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 100vh;
+    }
+  }
