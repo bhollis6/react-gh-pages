@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tdp-landing/static/css/main.bb29b7d5.css",
-    "main.js": "/tdp-landing/static/js/main.e65c5ffa.js",
-    "static/media/tdplaptop.svg": "/tdp-landing/static/media/tdplaptop.13166bf5f0ba00c5e84c.svg",
-    "static/media/tdpfinal.svg": "/tdp-landing/static/media/tdpfinal.36b4043fcae187b406de.svg",
-    "static/media/cloud-semibold-webfont.ttf": "/tdp-landing/static/media/cloud-semibold-webfont.32e0811f30c6726b83b7.ttf",
+    "main.css": "/tdp-landing/static/css/main.ac7bdf9f.css",
+    "main.js": "/tdp-landing/static/js/main.f22271fe.js",
+    "static/media/tdplaptop2.svg": "/tdp-landing/static/media/tdplaptop2.e84759e5cf02a0668d94.svg",
+    "static/media/tdpfinal2.svg": "/tdp-landing/static/media/tdpfinal2.acf4cf75baac96512e77.svg",
+    "static/media/GillSansMTKursiv.ttf": "/tdp-landing/static/media/GillSansMTKursiv.0d4983898e42ba38baa4.ttf",
     "index.html": "/tdp-landing/index.html",
-    "main.bb29b7d5.css.map": "/tdp-landing/static/css/main.bb29b7d5.css.map",
-    "main.e65c5ffa.js.map": "/tdp-landing/static/js/main.e65c5ffa.js.map"
+    "main.ac7bdf9f.css.map": "/tdp-landing/static/css/main.ac7bdf9f.css.map",
+    "main.f22271fe.js.map": "/tdp-landing/static/js/main.f22271fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb29b7d5.css",
-    "static/js/main.e65c5ffa.js"
+    "static/css/main.ac7bdf9f.css",
+    "static/js/main.f22271fe.js"
   ]
 }
