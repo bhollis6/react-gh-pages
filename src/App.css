@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
-
 @font-face {
-    font-family: "Cloud";
-    src: url(assets/cloud-semibold-webfont.ttf);
+    font-family: 'gill-sans-mt-italic';
+    src: url(components/GillSansMTKursiv.ttf);
 }
+
 /* Removed white border */
 html,
 body {
@@ -14,14 +13,14 @@ body {
 }
 
 .App {
-	font-family: "DM Sans", sans-serif;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
     color: #FFFFFF;
     background-color: #364572;
 }
 
 /* TODO Make different background for different aspect ratios */
 .App-background {
-	background-image: url("./assets/tdpfinal.svg");
+	background-image: url("./assets/tdpfinal2.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -75,22 +74,25 @@ body {
     text-align: justify;  
 }
 
-/* Cloud semi-bold */
 .Container-form {
     margin-top: 1%;
 	padding: 1%; 
     border-radius: 5px;
     background-color: #c1dcff;
     color: #364572;
-    font-family: "Cloud";
     /* font-size: 120%; */
     font-size: 2.05vh;
     width: 60%;
 }
 
+.Container-link {
+    width: 62%;
+    text-align: center;
+}
+
 .Container-form-text {
     color: #364572;
-    font-family: "Cloud";
+    font-family: "Gill Sans Bold", sans-serif;
     font-style: italic;
 }
 
@@ -102,7 +104,6 @@ body {
     margin-left: 5px;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-family: "Cloud";
     /* font-size: 80%; */
     font-size: 1.6vh;
 }
@@ -116,7 +117,6 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     width: 40%;
-    font-family: "Cloud";
     /* font-size: 80%; */
     font-size: 1.6vh;
 }
@@ -129,7 +129,6 @@ body {
     border-radius: 5px;
     border-style: solid;
     border-width: 2px;
-    font-family: "Cloud";
     font-size: 2vh;
     /* font-size: 100%; */
     cursor: pointer;
@@ -141,6 +140,11 @@ body {
     transform: scale(1.02);
 }
 
+.TDP-link {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1020px) {
     .Container-title {
         padding: 10px;
@@ -148,13 +152,12 @@ body {
         width: 100%;
     }
 
-    .Container-form {
+.Container-form {
     margin-top: .7%;
 	padding: .7%; 
     border-radius: 5px;
     background-color: #c1dcff;
     color: #364572;
-    font-family: "Cloud";
     /* font-size: 120%; */
     font-size: 2.05vh;
     width: 70%;
@@ -163,7 +166,7 @@ body {
 
 @media screen and (max-height: 895px) {
     .App-background {
-        background-image: url("./assets/tdplaptop.svg");
+        background-image: url("./assets/tdplaptop2.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -171,3 +174,49 @@ body {
         height: 100vh;
     }
   }
+
+
+
+  @media screen and (max-width: 767px) {
+    .App-background {
+        background-image: url("./assets/tdpIphoneXR.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 100vh;
+    }
+    
+    .App-body {
+        margin-right: 0; 
+        padding: 25px;
+    }
+
+    .Container-grid {
+        grid-template-columns: 1fr;
+        width: 100%; 
+        gap: 20px;
+    }
+
+    .Container-title {
+        font-size: 4.5vh; 
+        padding: 0;
+    }
+
+    .Container-paragraph1,
+    .Container-paragraph2 {
+        font-size: 2vh;
+        padding: 0;
+    }
+
+    .Container-form {
+        width: 97%; 
+        font-size: 2vh;
+    }
+
+    
+    .Container-link {
+        width: 100%;
+        text-align: center;
+    }
+}
